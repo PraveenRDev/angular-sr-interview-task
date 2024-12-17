@@ -5,13 +5,14 @@ To create an input field that searches a public api for cat breeds and displays 
 # Requirements
 
 - Create an input field that queries from a public api.
-- The api should be called 2.5 seconds after the last keystroke in the input field. (debounce)
-- Only search if the search text is at least 2 characters.  (filter)
-- Prevent duplicate api calls from the last search string. (distinctUntilChanges)
-- Cancel pending API calls when new search starts. (switchMap)
-- Take only first 12 results from API response. (take)
+- The api should be called 2.5 seconds after the last keystroke in the input field.
+- Only search if the search text is at least 2 characters.
+- Prevent duplicate api calls from the last search string.
+- Cancel pending API calls when new search starts.
+- Take only first 12 results from API response.
 - Render a grid of cards with api results that contains image, breed name, breed description (4 tiles per row).
-- Add a button to remove the card from the grid. (new requirement)
+- Add a button to remove the card from the grid.
+
 - BONUS: Prevent repeated API calls for duplicate search strings by rendering from cached list.
 
 # Notes
