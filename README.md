@@ -17,7 +17,7 @@ To create an input field that searches a public api for cat breeds and displays 
 
 # Notes
 
-- Available time: 1 hours.
+- Available time: 1 hour 15 minutes.
 - Docs usage limited to Official Angular Docs, MDN, API docs. CANNOT use StackOverflow/ChatGPT/etc.
 - To clone the repository to local (If prefererence is to work on local)
 `git clone https://github.com/PraveenRDev/angular-sr-interview-task.git`
